@@ -1,0 +1,24 @@
+.login {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+   
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container > img {
+    object-fit: contain;
+    height: 250px;
+    border-radius: 10px;
+    background: transparent;
+}
+.login-container > Button{
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
